@@ -84,7 +84,7 @@ ul {
 }
 
 .overlay-nav {
-  height: 0%;
+  height: 0;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -166,9 +166,8 @@ ul {
 
 .headline-date {
   color: #272a31;
-  margin-left: 0.1rem;
+  margin-left: 1rem;
 }
-
 
 .headline-date h3 {
   font-family: 'lato', sans-serif;
@@ -182,6 +181,7 @@ ul {
   padding-top: 1em;
 }
 
+/* Programs  */
 .program-header::after {
   content: '';
   display: block;
@@ -209,7 +209,7 @@ ul {
 
 .program-card {
   margin: 0 1rem;
-  padding: 1.5rem 0.5rem;
+  padding: 0.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   align-content: center;
@@ -244,6 +244,7 @@ ul {
   font-weight: 600;
 }
 
+/* Speakers */
 .speakers-wrapper {
   padding: 1rem 1rem;
 }
@@ -259,7 +260,7 @@ ul {
   height: 2px;
   width: 40px;
   margin: auto;
-  top: 2rem;
+  top: 1rem;
   border-radius: 1.5rem;
   background: #ec5242;
 }
