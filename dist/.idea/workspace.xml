@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf51247e-e783-4740-85b3-7a5e5093de3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Module1_Capstone" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/assets/icons/exhibition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/assets/icons/forum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/assets/icons/lecture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/assets/icons/network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/assets/icons/workshop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/assets/logo/crystal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/assets/logo/cyber-security.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/assets/logo/footer_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/fonts/lato/lato-black-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/fonts/lato/lato-black-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/fonts/lato/lato-bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/fonts/lato/lato-bold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/fonts/lato/lato-heavy-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/fonts/lato/lato-heavy-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/fonts/lato/lato-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/fonts/lato/lato-regular-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QVg6u0WTecz0sHDRY2FzbdWsJa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/muhammadibnsalyhu/WebstormProjects/Capstone-files/Backup-files",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "/Users/muhammadibnsalyhu/WebstormProjects/Capstone-files/Backup-files/node_modules/stylelint",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf51247e-e783-4740-85b3-7a5e5093de3f" name="Changes" comment="" />
+      <created>1685443990912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685443990912</updated>
+      <workItem from="1685443992240" duration="80000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

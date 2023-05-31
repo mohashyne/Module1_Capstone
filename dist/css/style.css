@@ -1,0 +1,327 @@
+
+@font-face {
+  font-family: 'lato';
+  src:
+    url('fonts/lato/lato-bold-webfont.woff2') format('woff2'),
+    url('fonts/lato/lato-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src:
+    url('fonts/lato/lato-heavy-webfont.woff2') format('woff2'),
+    url('fonts/lato/lato-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src:
+    url('fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+    url('fonts/lato/lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  color: #272a31;
+  background-color: #fff;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* Typography */
+::selection {
+  background: crimson;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0.1px;
+}
+
+/* Header & Hero */
+.header-wrapper {
+  background: url(../assets/background/headerbgg.png), linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.nav-wrapper {
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  position: relative;
+  top: 2%;
+  left: 2%;
+  width: fit-content;
+}
+
+.bar {
+  display: block;
+  width: 2.5rem;
+  height: 0.3rem;
+  margin: 0.5rem auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #272a31;
+  align-content: flex-start;
+}
+
+.overlay-nav {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(211, 211, 211);
+  background-color: rgba(211, 211, 211, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-nav-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.overlay-nav a {
+  padding: 0.8rem;
+  text-decoration: none;
+  color: #272a31;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay-nav a:hover,
+.overlay-nav a:focus {
+  color: white;
+}
+
+.overlay-nav .close_btn {
+  position: absolute;
+  top: 2rem;
+  right: 4.5rem;
+  font-size: 6rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline {
+  position: relative;
+  top: 2%;
+  left: 2%;
+  padding: 1rem;
+}
+
+.headline h1 {
+  font-family: 'lato', sans-serif;
+  text-align: left;
+  color: #272a31;
+  font-weight: 600;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(../assets/background/header-texture.jpg);
+}
+
+.headline h2 {
+  color: #ec5242;
+  font-weight: 600;
+}
+
+.headline-box {
+  border-style: solid;
+  border-color: rgb(170, 170, 170);
+  border-width: 0.3rem;
+  margin: 1rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  color: #272a31;
+}
+
+.headline-date {
+  color: #272a31;
+  margin-left: 0.1rem;
+}
+
+
+.headline-date h3 {
+  font-family: 'lato', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.program-header {
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.program-header::after {
+  content: '';
+  display: block;
+  position: relative;
+  height: 0.2rem;
+  width: 4rem;
+  margin: auto;
+  top: 2rem;
+  border-radius: 1.5rem;
+  background: #ec5242;
+}
+
+.program-wrapper {
+  background-color: #272a31;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  padding-bottom: 1.5rem;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.program-card {
+  margin: 0 1rem;
+  padding: 1.5rem 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  align-content: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.program-card img {
+  height: 55px;
+  width: 55px;
+  align-self: center;
+  padding-left: 0.5rem;
+}
+
+.program-card h3 {
+  color: #ec5242;
+  align-self: center;
+  margin-left: -2rem;
+}
+
+.program-card p {
+  color: white;
+}
+
+.join-button {
+  margin: 0 2rem;
+  height: 5rem;
+  color: white;
+  background-color: #ec5242;
+  border: none;
+  font-weight: 600;
+}
+
+.speakers-wrapper {
+  padding: 1rem 1rem;
+}
+
+.speakers-header {
+  text-align: center;
+}
+
+.speakers-header::after {
+  content: '';
+  display: block;
+  position: relative;
+  height: 2px;
+  width: 40px;
+  margin: auto;
+  top: 2rem;
+  border-radius: 1.5rem;
+  background: #ec5242;
+}
+
+.speaker-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.speaker-details {
+  line-height: 2rem;
+}
+
+.speaker-image img {
+  height: 14rem;
+  width: 14rem;
+}
+
+.speaker-title {
+  font-style: italic;
+  color: #ec5242;
+}
+
+.speaker-title::after {
+  content: '';
+  display: block;
+  position: relative;
+  height: 0.3rem;
+  width: 6rem;
+  margin: auto 0;
+  top: 0.7rem;
+  border-radius: 1.5rem;
+  background: grey;
+}
+
+.button-container {
+  margin: auto auto;
+  align-items: center;
+  text-align: center;
+}
+
+.speaker-btn {
+  height: 4rem;
+  padding: 0 2rem;
+  font-weight: 600;
+  width: 90%;
+}
+
+.speaker-btn i {
+  color: #ec5242;
+}
+
+@media (max-width: 780px) {
+  .overlay-nav { overflow-y: auto; }
+  .overlay-nav a { font-size: 1.5rem; }
+
+  .overlay-nav .close_btn {
+    font-size: 4rem;
+    top: 1.5rem;
+    right: 3.5rem;
+  }
+}
