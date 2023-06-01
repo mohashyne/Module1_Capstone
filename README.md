@@ -168,7 +168,7 @@ Please note that it may take a few moments for GitHub Pages to build and deploy 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page] (<a href="https://github.com/mohashyne/Module1_Capstone/issues"></a>).
+Feel free to check the <a href="https://github.com/mohashyne/Module1_Capstone/issues">issues page</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
