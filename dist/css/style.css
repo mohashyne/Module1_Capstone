@@ -108,10 +108,12 @@ ul {
   transition: 0.3s;
 }
 
+
 .overlay-nav a:hover,
 .overlay-nav a:focus {
   color: white;
 }
+
 
 .overlay-nav .close_btn {
   position: absolute;
@@ -120,13 +122,23 @@ ul {
   font-size: 6rem;
 }
 
+.header-wrapper {
+  background-size: 100%;
+  margin-bottom: -0.5rem;
+}
+
 .header-container {
+  background: url(../assets/background/headerbgg.png),
+  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  background-size: cover;
+  background-blend-mode: overlay;
   display: flex;
   flex-direction: column;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .headline {
-  position: relative;
   top: 2%;
   left: 2%;
   padding: 1rem;
@@ -149,20 +161,21 @@ ul {
 }
 
 .headline-box {
+  background-color: #d9d9d9;
   border-style: solid;
-  border-color: rgb(170, 170, 170);
+  border-color: rgb(255, 255, 255);
   border-width: 0.3rem;
   margin: 1rem;
   padding: 0 0.5rem;
   text-align: center;
   color: #272a31;
+  width: 85%;
 }
 
 .headline-date {
   color: #272a31;
-  margin-left: 0.1rem;
+  margin-left: 1rem;
 }
-
 
 .headline-date h3 {
   font-family: 'lato', sans-serif;
@@ -176,6 +189,7 @@ ul {
   padding-top: 1em;
 }
 
+/* Programs  */
 .program-header::after {
   content: '';
   display: block;
@@ -183,7 +197,7 @@ ul {
   height: 0.2rem;
   width: 4rem;
   margin: auto;
-  top: 2rem;
+  top: 1rem;
   border-radius: 1.5rem;
   background: #ec5242;
 }
@@ -192,6 +206,7 @@ ul {
   background-color: #272a31;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   padding-bottom: 1.5rem;
+  padding-top: 0.2rem;
 }
 
 .program-container {
@@ -203,13 +218,22 @@ ul {
 
 .program-card {
   margin: 0 1rem;
-  padding: 1.5rem 0.5rem;
+  padding: 0.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   align-content: center;
   justify-content: center;
   gap: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: 0.5s ease;
+}
+
+.program-card:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.5s ease;
+  border: #fafafa solid 2px;
 }
 
 .program-card img {
