@@ -1,22 +1,22 @@
 {
-  "name": "msalyhu_portfolio",
+  "name": "module1_capstone",
   "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>",
+  "description": "<div align=\"center\">  <img src=\"./dist/assets/logo/cyber-security.png\" alt=\"logo\" width=\"140\"  height=\"auto\" />   <h3><b>HTML, CSS and JavaScript Capstone</b></h3> </div>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohashyne/MSalyhu_portfolio.git"
+    "url": "git+https://github.com/mohashyne/Module1_Capstone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mohashyne/MSalyhu_portfolio/issues"
+    "url": "https://github.com/mohashyne/Module1_Capstone/issues"
   },
-  "homepage": "https://github.com/mohashyne/MSalyhu_portfolio#readme",
+  "homepage": "https://github.com/mohashyne/Module1_Capstone#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
