@@ -1,5 +1,5 @@
 'use strict'
-const { Minipass } = require('minipass')
+const MiniPass = require('minipass')
 const Pax = require('./pax.js')
 const Header = require('./header.js')
 const fs = require('fs')
@@ -41,7 +41,7 @@ const stripAbsolutePath = require('./strip-absolute-path.js')
 
 const modeFix = require('./mode-fix.js')
 
-const WriteEntry = warner(class WriteEntry extends Minipass {
+const WriteEntry = warner(class WriteEntry extends MiniPass {
   constructor (p, opt) {
     opt = opt || {}
     super(opt)
@@ -417,7 +417,7 @@ class WriteEntrySync extends WriteEntry {
   }
 }
 
-const WriteEntryTar = warner(class WriteEntryTar extends Minipass {
+const WriteEntryTar = warner(class WriteEntryTar extends MiniPass {
   constructor (readEntry, opt) {
     opt = opt || {}
     super(opt)

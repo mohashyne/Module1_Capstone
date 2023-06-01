@@ -22,7 +22,7 @@ class PackJob {
   }
 }
 
-const { Minipass } = require('minipass')
+const MiniPass = require('minipass')
 const zlib = require('minizlib')
 const ReadEntry = require('./read-entry.js')
 const WriteEntry = require('./write-entry.js')
@@ -56,7 +56,7 @@ const path = require('path')
 const warner = require('./warn-mixin.js')
 const normPath = require('./normalize-windows-path.js')
 
-const Pack = warner(class Pack extends Minipass {
+const Pack = warner(class Pack extends MiniPass {
   constructor (opt) {
     super(opt)
     opt = opt || Object.create(null)

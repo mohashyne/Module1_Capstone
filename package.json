@@ -1,14 +1,22 @@
 {
-  "name": "capstone-dir",
+  "name": "msalyhu_portfolio",
   "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohashyne/MSalyhu_portfolio.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/mohashyne/MSalyhu_portfolio/issues"
+  },
+  "homepage": "https://github.com/mohashyne/MSalyhu_portfolio#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",

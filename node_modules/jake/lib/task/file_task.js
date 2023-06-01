@@ -91,8 +91,6 @@ class FileTask extends Task {
             }
           }
         }
-        this.taskStatus = Task.runStatuses.DONE;
-        return false;
       }
       // File/dir has no prereqs, and exists -- no need to run
       else {

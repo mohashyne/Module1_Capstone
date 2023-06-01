@@ -215,7 +215,7 @@ if (!global.jake) {
 
       switch (type) {
       case 'directory':
-        action = function action() {
+        action = function () {
           jake.mkdirP(name);
         };
         task = new DirectoryTask(name, prereqs, action, opts);
