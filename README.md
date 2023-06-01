@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <p>For Live demo click
-<a href="https://mohashyne.github.io/Module_1-Capstone-Project/"> here </a></p>
+<a href="https://mohashyne.github.io/Module1_Capstone/"> here </a></p>
 
 ## 🚀 Live Video <a name="live-video"></a>
 
