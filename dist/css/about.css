@@ -322,6 +322,7 @@ ul {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    gap: 9rem;
 }
 
 .mobile-footer img {
@@ -498,5 +499,7 @@ ul {
     .desktop-footer img {
         background-color: #444444;
         width: 30%;
+        border-radius: 10px;
+        margin-left: 1rem;
     }
 }
