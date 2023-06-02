@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'lato';
     src:
@@ -53,25 +52,18 @@ a {
 
 ul {
     list-style: none;
-    padding-left: 0.01rem;
-}
-
-/* Header & Hero */
-.header-wrapper {
-    background: url(../assets/background/headerbgg.png), linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
-    background-size: cover;
-    background-blend-mode: overlay;
+    padding-left: 0.1px;
 }
 
 .nav-wrapper {
-    margin-top: 1.5rem;
+    padding-top: 1.5rem;
     padding-left: 1rem;
+    padding-bottom: 0;
     position: relative;
     top: 2%;
     left: 2%;
     width: fit-content;
 }
-
 
 .bar {
     display: block;
@@ -85,7 +77,7 @@ ul {
 }
 
 .overlay-nav {
-    height: 0%;
+    height: 0;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -133,13 +125,24 @@ ul {
     font-size: 6rem;
 }
 
+.header-wrapper {
+    background: #dfdddd;
+    background-size: 100%;
+    margin-bottom: -5rem;
+}
+
 .header-container {
+    background: url(../assets/background/headerbgg.png),
+    linear-gradient(rgba(217, 217, 217, 0.8), rgba(217, 217, 217, 0.8));
+    background-size: cover;
+    background-blend-mode: overlay;
     display: flex;
     flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .headline {
-    position: relative;
     top: 2%;
     left: 2%;
     padding: 1rem;
@@ -148,29 +151,26 @@ ul {
 .headline h1 {
     font-family: 'lato', sans-serif;
     text-align: center;
-    color: #272a31;
-    font-weight: 600;
-    background-clip: content-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: url(../assets/background/header-texture.jpg);
+    color: #ec4327;
+    font-weight: 800;
 }
 
 .headline h2 {
     color: #ec5242;
     font-weight: 600;
     text-align: center;
+    margin-top: 6rem;
 }
 
 .headline-box {
     border-style: solid;
     border-color: rgb(170, 170, 170);
-    border-width: 1px;
-    background-color: white;
+    border-width: 0.1rem;
+    background-color: rgb(255, 255, 255);
     margin: 1rem;
-    padding: 0 0.5rem;
+    padding: 0 0.5em;
     text-align: center;
-    color: #272a31;
+    color: #838383;
 }
 
 .headline-contact {
@@ -188,9 +188,9 @@ ul {
 .past-expo-header {
     color: #272a31;
     font-size: 1.3rem;
-    line-height: 2.2rem;
+    line-height: 1.2rem;
     text-align: center;
-    padding: 0.6rem 1rem;
+    padding: 0 1rem;
 }
 
 .logo-header::after,
@@ -203,19 +203,20 @@ ul {
     width: 4rem;
     margin: auto;
     top: 1rem;
-    border-radius: 1.5rem;
-    background: #ec5242;
+    border-radius: 15px;
+    background: #a04038;
 }
 
-.logo-details,
+.logo-details-mobile,
+.logo-details-desktop,
 .past-expo-details {
     text-align: center;
-    padding: 0.5rem 1rem;
+    padding: 5rem 5rem;
 }
 
 .logo-image {
     display: flex;
-    background-color: #223842;
+    background-color: #444444;
     border: #d3d3d3 solid 1px;
     align-items: center;
     justify-content: center;
@@ -231,7 +232,9 @@ ul {
 
 .past-expo {
     border-top: #d3d3d3 solid 1px;
-    margin-top: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .expo-images-container {
@@ -242,10 +245,10 @@ ul {
     justify-content: center;
 }
 
-.expo-dubai {
-    width: 80%;
-    height: 15rem;
-    background-image: url(../assets/background/present.png);
+.expo-image-dubai {
+    width: 33.4rem;
+    height: 20.2rem;
+    background-image: url(../assets/background/dubai_expo.jpeg);
     background-color: #ec5242;
     background-size: cover;
     background-blend-mode: multiply;
@@ -257,12 +260,12 @@ ul {
     justify-content: center;
 }
 
-.expo-europe {
-    width: 80%;
-    height: 15rem;
-    background-image: url(../assets/background/europe-expo.jpg);
+.expo-image-europe {
+    width: 33.4rem;
+    height: 20.2rem;
+    background-image: url(../assets/background/europe-expo.jpeg);
     background-color: #ec5242;
-    background-size: cover;
+    background-size: 100%;
     background-blend-mode: multiply;
     text-align: center;
     color: white;
@@ -274,11 +277,13 @@ ul {
 
 .expo-year {
     font-size: xx-large;
+    height: 0.1rem;
+
 }
 
 .expo-place {
-    font-size: medium;
-    font-weight: bold;
+    font-size: small;
+
 }
 
 .partners {
@@ -298,13 +303,18 @@ ul {
 .partners-logo {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     filter: invert(50%);
+    align-items: center;
+    width: 90%;
+    gap: 1.6rem;
+    margin: 0 auto;
 }
 
 .partners-logo img {
     max-height: 7rem;
+    width: auto;
 }
 
 .mobile-footer {
@@ -312,14 +322,15 @@ ul {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    gap: 9rem;
 }
 
 .mobile-footer img {
-    height: 3rem;
-    width: 7rem;
+    max-height: 3.5rem;
+    padding-top: 0.3rem;
+    background-color: #444444;
+    margin: 0.5rem 0.5rem;
     border-radius: 10px;
-    margin: 1rem 2rem;
-    background-color: #223842;
 }
 
 @media (max-width: 780px) {
@@ -327,8 +338,168 @@ ul {
     .overlay-nav a { font-size: 1.5em; }
 
     .overlay-nav .close_btn {
-        font-size: 4rem;
+        font-size: 40px;
         top: 15px;
-        right: 3.5rem;
+        right: 35px;
+    }
+
+    .desktop-banner {
+        display: none;
+    }
+
+    .desktop-headline {
+        display: none;
+    }
+
+    .logo-details-desktop {
+        display: none;
+    }
+
+    .desktop-footer {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .desktop-nav-banner {
+        display: flex;
+        background: #3e3e3e;
+        color: white;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        height: 3rem;
+        font-size: 1.2rem;
+        gap: 10px;
+        padding-right: 4rem;
+    }
+
+    .desktop-nav {
+        background: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 7rem 0 10rem;
+        gap: 19%;
+        border-bottom: 4px solid #d3d3d3;
+    }
+
+    .desktop-nav img {
+        background-color: #444;
+    }
+
+
+    .desktop-nav a {
+        color: #868686;
+    }
+
+    .desktop-nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+        font-size: 1.4rem;
+    }
+
+    .desktop-nav-list li a:hover {
+        color: #ec4327;
+    }
+
+    .banner-logo img {
+        max-height: 3rem;
+    }
+
+    .nav-campaign {
+        width: fit-content;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: #ec4327 solid 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        color: #ec4327;
+        font-weight: 800;
+    }
+
+
+    .header-wrapper {
+        margin-bottom: 0;
+    }
+
+    .headline h2 {
+        display: none;
+    }
+
+    .headline-box {
+        width: 70%;
+        align-self: center;
+    }
+
+    .mobile-headline {
+        display: none;
+    }
+
+    .logo-details-mobile {
+        display: none;
+    }
+
+    .logo-container {
+        padding-left: 13rem;
+        padding-right: 13rem;
+    }
+
+    .logo-image {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .expo-images-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .expo-image-dubai,
+    .expo-image-europe {
+        width: 43.2rem;
+        height: 25.6rem;
+    }
+
+    .partners-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+        filter: invert(50%);
+        align-items: center;
+    }
+
+    .mobile-footer {
+        display: none;
+    }
+
+    .desktop-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .desktop-footer img {
+        background-color: #444444;
+        width: 30%;
+        border-radius: 10px;
+        margin-left: 1rem;
     }
 }

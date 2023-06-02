@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <p>For Live demo click
-<a href="https://mohashyne.github.io/Module_1-Capstone-Project/"> here </a></p>
+<a href="https://mohashyne.github.io/Module1_Capstone/dist/"> here </a></p>
 
 ## 🚀 Live Video <a name="live-video"></a>
 
@@ -168,6 +168,8 @@ Please note that it may take a few moments for GitHub Pages to build and deploy 
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the <a href="https://github.com/mohashyne/Module1_Capstone/issues">issues page</a>.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -186,6 +188,6 @@ I would like to thank everyone In  the Miroverse Community for their support and
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
