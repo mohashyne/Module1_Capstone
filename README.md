@@ -70,7 +70,7 @@
 ## 🚀 Live Video <a name="live-video"></a>
 
 <p>For Live video presentation click
-<a href="https://drive.google.com/drive/folders/1ZD6AYRzDI3jg1sjnahNltHPel35ZH2g_?usp=drive_link"> here </a></p>
+<a href="https://drive.google.com/file/d/16UwDDF7SgLOqDiEptMv0ut2Lt7MJ636e/view?usp=sharing"> here </a></p>
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
