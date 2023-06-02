@@ -129,13 +129,15 @@ ul {
 
 .header-container {
   background: url(../assets/background/headerbgg.png),
-  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  linear-gradient(rgba(217, 217, 217, 0.8), rgba(217, 217, 217, 0.8));
   background-size: cover;
   background-blend-mode: overlay;
   display: flex;
   flex-direction: column;
   margin-top: 0;
   padding-top: 0;
+  align-items: center;
+  width: 100%;
 }
 
 .headline {
@@ -157,7 +159,8 @@ ul {
 
 .headline h2 {
   color: #ec5242;
-  font-weight: 600;
+  font-weight: 300;
+  margin-bottom: -2rem;
 }
 
 .headline-box {
@@ -413,7 +416,7 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 0 10rem 0 10rem;
-    gap: 10%;
+    gap: 19%;
   }
 
   .desktop-nav a {
@@ -423,11 +426,12 @@ ul {
   .desktop-nav ul {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 5rem;
     justify-content: center;
     align-items: center;
     font-weight: 800;
     font-size: 1.4rem;
+    margin-left: 5rem;
   }
 
   .header-wrapper {
@@ -448,23 +452,23 @@ ul {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: #ec4327 solid 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
     color: #ec4327;
     font-weight: 800;
   }
 
   .headline {
-    margin-left: 6rem;
+    margin-left: -42rem;
   }
 
   .headline-box {
-    margin-left: 6rem;
-    max-width: 30rem;
+    margin-left: -9rem;
+    max-width: 58rem;
   }
 
   .headline-date {
-    margin-left: 6rem;
+    margin-left: -36rem;
   }
 
   .program-container {

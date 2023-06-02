@@ -211,7 +211,7 @@ ul {
 .logo-details-desktop,
 .past-expo-details {
     text-align: center;
-    padding: 0.5rem 1rem;
+    padding: 5rem 5rem;
 }
 
 .logo-image {
@@ -246,9 +246,9 @@ ul {
 }
 
 .expo-image-dubai {
-    width: 80%;
-    height: 15rem;
-    background-image: url(../assets/background/present.png);
+    width: 33.4rem;
+    height: 20.2rem;
+    background-image: url(../assets/background/dubai_expo.jpeg);
     background-color: #ec5242;
     background-size: cover;
     background-blend-mode: multiply;
@@ -261,9 +261,9 @@ ul {
 }
 
 .expo-image-europe {
-    width: 80%;
-    height: 15rem;
-    background-image: url(../assets/background/europe-expo.jpg);
+    width: 33.4rem;
+    height: 20.2rem;
+    background-image: url(../assets/background/europe-expo.jpeg);
     background-color: #ec5242;
     background-size: 100%;
     background-blend-mode: multiply;
@@ -277,11 +277,13 @@ ul {
 
 .expo-year {
     font-size: xx-large;
+    height: 0.1rem;
+
 }
 
 .expo-place {
-    font-size: medium;
-    font-weight: bold;
+    font-size: small;
+
 }
 
 .partners {
@@ -301,14 +303,18 @@ ul {
 .partners-logo {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     filter: invert(50%);
     align-items: center;
+    width: 90%;
+    gap: 1.6rem;
+    margin: 0 auto;
 }
 
 .partners-logo img {
     max-height: 7rem;
+    width: auto;
 }
 
 .mobile-footer {
@@ -377,8 +383,9 @@ ul {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 0 10rem 0 10rem;
-        gap: 10%;
+        padding: 0 7rem 0 10rem;
+        gap: 19%;
+        border-bottom: 4px solid #d3d3d3;
     }
 
     .desktop-nav img {
@@ -393,7 +400,7 @@ ul {
     .desktop-nav ul {
         display: flex;
         flex-direction: row;
-        gap: 3rem;
+        gap: 5rem;
         justify-content: center;
         align-items: center;
         font-weight: 800;
@@ -408,7 +415,7 @@ ul {
         max-height: 3rem;
     }
 
-    .nav-campain {
+    .nav-campaign {
         width: fit-content;
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -447,10 +454,8 @@ ul {
     }
 
     .logo-image {
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 0.2rem;
-        background-color: #444;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     .expo-images-container {
@@ -463,8 +468,8 @@ ul {
 
     .expo-image-dubai,
     .expo-image-europe {
-        width: 40%;
-        height: 20rem;
+        width: 43.2rem;
+        height: 25.6rem;
     }
 
     .partners-logo {
@@ -492,6 +497,6 @@ ul {
 
     .desktop-footer img {
         background-color: #444444;
-        width: 50%;
+        width: 30%;
     }
 }
